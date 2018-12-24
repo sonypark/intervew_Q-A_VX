@@ -23,8 +23,6 @@ def prime(n:int) ->bool:
             return False
     return True
 
-
-
 '''
 방법2
 N=2이면 소수
@@ -32,7 +30,6 @@ N을 2로 나누었을 때 나머지가 0이면 소수 아님
 -- 홀수만 남음 --
 N-1이하의 홀수로 나눴을 때 나머지가 0이 되는 수가 있으면 소수 아님
 '''
-
 def prime_2(n:int) ->bool:
     if n==1:
         return False
@@ -45,7 +42,6 @@ def prime_2(n:int) ->bool:
         if(n%i ==0):
             return False
     return True
-
 
 '''
 방법3
