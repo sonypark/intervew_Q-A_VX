@@ -66,7 +66,7 @@ def prime_3(n:int)->bool:
     return True
 
 
-#입력값 n 이하에 있는 모든 소수 출력
+# 입력값 n 이하에 있는 모든 소수 출력
 for p in range(30):
     #방법1
     if(prime(p)):
